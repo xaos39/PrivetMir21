@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p id="message">Нажми на кнопку!</p>
-    <button onclick="showHello()">Нажми меня</button>
+    <div class="container">
+        <h1>Добро пожаловать!</h1>
+        <p id="message">Нажми на кнопку!</p>
+        <div class="button-container">
+            <button onclick="showHello()">Нажми меня</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
